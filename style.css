@@ -166,6 +166,16 @@ h1 {
     background: #42766d;
 }
 
+.copyright {
+    text-align: center;       /* Centraliza o texto */
+    padding: 20px;           /* Espaçamento interno */
+    font-size: 16px;         /* Tamanho da fonte */
+    color: #1b0505;             /* Cor do texto */
+    background: transparent; /* Fundo transparente (ou defina uma cor) */
+    width: 100%;             /* Ocupa toda a largura */
+    margin-top: auto;        /* Empurra o footer para baixo se a página for pequena */
+}
+
 /* Layout para desktop */
 @media (min-width: 768px) {
     .grid-layout {
