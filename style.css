@@ -51,7 +51,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
-    border: 5px solid #4e54c8;
+    border: 5px solid #943660;
 }
 
 .profile-img img {
@@ -82,7 +82,7 @@ h1 {
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
-    color: #4e54c8;
+    color: #943660;
 }
 
 .skill-category {
@@ -91,7 +91,7 @@ h1 {
 
 .skill-category h3 {
     font-size: 16px;
-    color: #4e54c8;
+    color: #943660;
     margin-bottom: 5px;
 }
 
@@ -111,7 +111,7 @@ h1 {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    color: #4e54c8;
+    color: #943660;
 }
 
 .links-container {
@@ -125,7 +125,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    background: linear-gradient(135deg, #bd5584, #99446a);
     color: white;
     text-decoration: none;
     border-radius: 10px;
