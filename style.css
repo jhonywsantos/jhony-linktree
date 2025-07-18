@@ -51,7 +51,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
-    border: 5px solid #42766d; /* Borda verde */
+    border: 5px solid #766d42; /* Borda verde */
 }
 
 .profile-img img {
@@ -82,7 +82,7 @@ h1 {
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
-    color: #54877e;
+    color: #2a8f7c;
 }
 
 .skill-category {
@@ -91,7 +91,7 @@ h1 {
 
 .skill-category h3 {
     font-size: 16px;
-    color: #54877e;
+    color: #251906;
     margin-bottom: 5px;
 }
 
@@ -125,7 +125,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background: linear-gradient(135deg, #61452b, #d1bf81);
+    background: linear-gradient(135deg, #9e754f, #74583f);
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -154,7 +154,7 @@ h1 {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: #54877e;
+    background: #473313;
     color: white;
     border-radius: 50%;
     font-size: 18px;
@@ -163,7 +163,7 @@ h1 {
 
 .social-icon:hover {
     transform: translateY(-3px);
-    background: #42766d;
+    background: #251906;
 }
 
 .skills-container {
