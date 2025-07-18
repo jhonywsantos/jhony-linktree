@@ -176,10 +176,8 @@ h1 {
 
 .skill-button {
     padding: 8px 15px;
-    background-color: #f0f0f0;
     border: none;
     border-radius: 20px;
-    color: #333;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -187,13 +185,30 @@ h1 {
 }
 
 .skill-button:hover {
-    background-color: #e0e0e0;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    opacity: 0.9;
 }
 
+/* Cores customizadas para cada tecnologia */
+.html5 { background-color: #E44D26; color: white; }
+.css3 { background-color: #264DE4; color: white; }
+.javascript { background-color: #F0DB4F; color: #323330; }
+.tailwind { background-color: #38BDF8; color: #0F172A; }
+.scss { background-color: #CC6699; color: white; }
+.haml { background-color: #dedec9; color: #333; }
+.git { background-color: #F05033; color: white; }
+.github-pages { background-color: #24292E; color: white; }
+.python { background-color: #3776AB; color: #FFD43B; }
+.figma { background-color: #A259FF; color: white; }
+.canva { background-color: #00C4CC; color: #1E3A8A; }
+.mysql { background-color: #4479A1; color: #F29111; }
+.postgres { background-color: #336791; color: white; }
+.vscode { background-color: #007ACC; color: white; }
+.windows { background-color: #0078D7; color: white; }
+
 .copyright {
-    text-align: center;       /* Centraliza o texto */
+    text-align: center;       /* Centralizar texto */
     padding: 20px;           /* Espaçamento interno */
     font-size: 14px;         /* Tamanho da fonte */
     color: #140e04;             /* Cor do texto */
