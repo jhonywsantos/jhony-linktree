@@ -161,6 +161,11 @@ h1 {
     transition: transform 0.3s, background 0.3s;
 }
 
+.skills h3 .icon {
+  color: #54877e;
+  margin-right: 10px;
+}
+
 .social-icon:hover {
     transform: translateY(-3px);
     background: #42766d;
@@ -175,6 +180,7 @@ h1 {
     width: 100%;             /* Ocupa toda a largura */
     margin-top: auto;        /* Empurra o footer para baixo se a página for pequena */
 }
+
 
 /* Layout para desktop */
 @media (min-width: 768px) {
